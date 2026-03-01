@@ -70,9 +70,15 @@ datasets/*.zip
 datasets/*.tar.gz
 
 # ========================
+# Node.js
+# ========================
+node_modules/
+
+# ========================
 # Logs & Temp
 # ========================
 *.log
+*.tmp
 logs/
 tmp/
 .tmp/
