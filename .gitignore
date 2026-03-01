@@ -1,0 +1,85 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ========================
+# C/C++ (Firmware)
+# ========================
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ========================
+# IDE & Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# MATLAB / Simulink
+# ========================
+*.slxc
+slprj/
+*.autosave
+*.asv
+
+# ========================
+# CAD Files (large binaries - use Git LFS)
+# ========================
+# *.SLDPRT
+# *.SLDASM
+# *.STEP
+# *.STL
+
+# ========================
+# ML Models (large files)
+# ========================
+*.pt
+*.onnx
+*.tflite
+*.weights
+*.h5
+
+# ========================
+# Dataset (large files)
+# ========================
+datasets/data/
+datasets/*.zip
+datasets/*.tar.gz
+
+# ========================
+# Logs & Temp
+# ========================
+*.log
+logs/
+tmp/
+.tmp/
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
