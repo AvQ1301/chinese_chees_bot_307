@@ -9,7 +9,7 @@ val: valid/images
 test: test/images
 
 # Số lượng class
-nc: 14
+nc: 15
 
 # Tên các class (thứ tự khớp với Roboflow label ID 0-13)
 names:
@@ -27,3 +27,4 @@ names:
   11: r_general
   12: r_horse
   13: r_soldier
+  14: intersection
