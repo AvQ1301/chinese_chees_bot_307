@@ -3,7 +3,7 @@
 # Dataset source: Roboflow (Chinese Chess v6)
 
 # Đường dẫn dataset (tuyệt đối)
-path: /home/qbot/chinese_chess_bot_307/datasets
+path: /home/robot307/chinese_chess_bot_307/datasets
 train: train/images
 val: valid/images
 test: test/images
@@ -20,11 +20,11 @@ names:
   4: b_general
   5: b_horse
   6: b_soldier
-  7: r_advisor
-  8: r_cannon
-  9: r_chariot
-  10: r_elephant
-  11: r_general
-  12: r_horse
-  13: r_soldier
-  14: intersection
+  7: intersection
+  8: r_advisor
+  9: r_cannon
+  10: r_chariot
+  11: r_elephant
+  12: r_general
+  13: r_horse
+  14: r_soldier
